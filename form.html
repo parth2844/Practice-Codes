@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {                       
+            border: 1px solid gray;
+            padding: 20px 30px;
+            width: 400px;
+        }
+        .input-field {
+            margin: 10px 0;
+        }
+        .input-field label {
+            font-weight: bold;
+            
+        }
+        .input-field input {
+            width: 100%;
+            margin-top: 5px;
+        }
+    </style>
+    <script>
+        function validateForm() {            
+            var pass = document.getElementById('password').value
+            var date = document.getElementById('date').value
+            
+            var reg  = /^([a-z])(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{7,11}$/;
+            
+            if(!reg.test(pass)) {
+                alert("Invalid Password")
+                return false               
+            }
+            var age = getAge(date)
+            if(age<18) {
+                alert("Age cannot be less than 18")
+                return false
+            }
+        }
+        function getAge(date) {
+            var today = new Date();
+            var birthDate = new Date(date);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
+    </script>
+</head>
+<body>
+    <form class="form" onsubmit="return validateForm()">
+        <div class="input-field">
+            <label for="username">Username <span style="color: red;">*</span></label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-field">
+            <label for="password">Password <span style="color: red;">*</span></label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-field">
+            <label for="confirm-pass">Confirm Password</label><br>
+            <input type="password" name="confirm-pass">
+        </div>
+        <div class="input-field">
+            <label for="date">Date of Birth <span style="color: red;">*</span></label><br>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="input-field">
+            <label for="email">Email</label><br>
+            <input type="email" name="email">
+        </div>
+        <div class="input-field">
+            <label for="country">Country</label><br>
+            <input list="countries" name="country">
+            <datalist id="countries">
+                <option value="India">
+                <option value="United States">
+                <option value="Canada">
+                <option value="Brazil">
+                <option value="Mexico">
+            </datalist>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

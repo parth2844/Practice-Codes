@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {     
+            font-family: Chalkduster, fantasy; 
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+
+        th {
+            color: white;
+            font-weight: bold;
+            background-color: rgb(255, 136, 0);
+            border-left: 1px solid lightgray;
+        }
+        
+        td, th {
+            
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr, th {
+            border-bottom: 1px solid lightgray;
+        }
+
+        .cost-col {
+            text-align: center;
+        }
+
+        h3 {
+            padding: 8px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <p style="float: right; margin: 0; color: darkgreen;">Invoive # 1122332211</p>
+        <tr>
+          <th colspan="2">Item</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th class="cost-col">Cost</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Joey's</td>
+            <td>Fisherman stew</td>
+            <td>1</td>
+            <td>$ 20</td>
+            <td class="cost-col">$ 20.00</td>
+        </tr>
+        <tr>
+            <td>Stuffed Clam Chowder</td>
+            <td>1</td>
+            <td>$ 15</td>
+            <td class="cost-col">$ 15.00</td>
+        </tr>
+           
+        <tr>
+          <td colspan="2">Ploebe's Mushroom Soup</td>
+          <td>1</td>
+          <td>$ 10</td>
+          <td class="cost-col">$ 10.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="2">&nbsp;</td>
+            <td colspan="2">Total (Tax excl.)</td>
+            <td class="cost-col">$ 45.00</td>
+            
+        </tr>
+        <tr>            
+            <td colspan="2">Tax@ 7%</td>
+            <td class="cost-col">$ 3.15</td>            
+        </tr>
+        <tr style="border-bottom: 1px solid transparent;">
+            <td colspan="4">Grand Total</td>
+            <td class="cost-col">$ 48.15</td>
+        </tr>
+        
+      </table>
+      <h3>14 October, 2003</h3>
+</body>
+</html>

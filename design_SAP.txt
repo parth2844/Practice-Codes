@@ -1,0 +1,51 @@
+Sample User Object
+{
+    userId: "{System generated random value}",
+    firstName: "First",
+    lastName: "Last",
+    email: "first.last@gmail.com",
+    phone: "1234567890",
+    location: "San Fransisco"
+}
+-------------------------------------------------------
+1. 
+POST /user-management/users/signup
+POST Parameter - New user informtion object
+Return Value - Acknowledgement (Success or Failure)
+
+2.
+DELETE /user-management/users/{userId}
+
+3.
+PUT /user-management/users/{userId}/email
+PUT Parameter - New email Id
+
+4.
+GET /user-management/users/{userId}
+Retrun Object: User Object
+
+5.
+GET /user-management/user-location/{location}
+Return Object: List of User Objects
+
+6.
+PUT /user-management/users/{userId}/password
+PUT Parameter - Encrypted/Hashed Password
+
+7.
+GET /user-activity/{duration}
+// User activity logs the last login time of the user
+// Duration has to be substituted for time frame
+Return Object: List of User Objects
+
+
+-------------------------------------------------------
+
+DDos attacks can be stopped at Load Balancer level:
+a. rate limit your router to prevent your Web server from being overwhelmed
+b. add filters to tell your router to drop packets from obvious sources of attack
+c. timeout half-open connections more aggressively
+d. drop spoofed or malformed packages
+e. set lower SYN, ICMP, and UDP flood drop thresholds
+
+-

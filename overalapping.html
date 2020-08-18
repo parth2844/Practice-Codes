@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b-container {
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            position: relative;
+        }
+        .block {
+            height: 250px;
+            width: 250px;
+            text-align: center;   
+            border: 1px solid transparent;
+        }
+        .block h3 {
+            margin-top: 100px;
+            margin-bottom: auto;
+            opacity: 1;
+        }
+        .b1 {
+            background-color: rgba(255, 0, 0, 0.5);   
+            position: absolute;
+            left: 500px;
+            z-index: 10;
+        }
+        .b2 {
+            background-color: rgba(0, 255, 0, 0.5);     
+            position: absolute;   
+            top: 150px;
+            left: 350px;
+            z-index: 0;
+        }
+        .b3 {
+            background-color: rgba(0, 0, 255, 0.5); 
+            position: absolute;
+            top: 200px;
+            left: 550px;
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="b-container">
+        <div class="block b1"><h3>Block 1</h3></div>
+        <div class="block b2"><h3>Block 2</h3></div>
+        <div class="block b3"><h3>Block 3</h3></div>
+    </div>
+</body>
+</html>
