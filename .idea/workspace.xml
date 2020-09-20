@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="480aa88e-6181-47a3-b151-369d1a31f14f" name="Default Changelist" comment="" />
+    <list default="true" id="480aa88e-6181-47a3-b151-369d1a31f14f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/artifactsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matchBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/nearestCities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/nearestCities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nearestCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nearestCities.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -13,6 +34,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ft7TUkmSDMmqUgBUkXgusrmVcT" />
   <component name="ProjectViewState">
@@ -32,56 +56,64 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.itemAssTwo">
-    <configuration name="debtProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="debtProblem" />
+  <component name="RunManager" selected="Application.ancestralNames">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="itemAssTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="itemAssTwo" />
+    <configuration name="ancestralNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ancestralNames" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="itemAssociation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="itemAssociation" />
+    <configuration name="br" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nearestCities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nearestCities" />
+    <configuration name="deleteProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deleteProducts" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="truckProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="truckProblem" />
+    <configuration name="sildingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sildingWindow" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tidyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tidyNumbers" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.nearestCities" />
-      <item itemvalue="Application.debtProblem" />
-      <item itemvalue="Application.truckProblem" />
-      <item itemvalue="Application.itemAssociation" />
-      <item itemvalue="Application.itemAssTwo" />
+      <item itemvalue="Application.br" />
+      <item itemvalue="Application.sildingWindow" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.tidyNumbers" />
+      <item itemvalue="Application.deleteProducts" />
+      <item itemvalue="Application.ancestralNames" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.itemAssTwo" />
-        <item itemvalue="Application.itemAssociation" />
-        <item itemvalue="Application.truckProblem" />
-        <item itemvalue="Application.debtProblem" />
-        <item itemvalue="Application.nearestCities" />
+        <item itemvalue="Application.ancestralNames" />
+        <item itemvalue="Application.deleteProducts" />
+        <item itemvalue="Application.tidyNumbers" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.sildingWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +150,21 @@
       <workItem from="1597627300528" duration="4378000" />
       <workItem from="1597696988274" duration="3063000" />
       <workItem from="1597719712247" duration="19000" />
+      <workItem from="1597794851996" duration="3933000" />
+      <workItem from="1597807799210" duration="60000" />
+      <workItem from="1597808539480" duration="395000" />
+      <workItem from="1597808957193" duration="714000" />
+      <workItem from="1597889285781" duration="898000" />
+      <workItem from="1597890213449" duration="1829000" />
+      <workItem from="1597894751425" duration="5659000" />
+      <workItem from="1598205019243" duration="1130000" />
+      <workItem from="1598588735682" duration="22000" />
+      <workItem from="1599693608502" duration="806000" />
+      <workItem from="1599865746333" duration="39000" />
+      <workItem from="1600223861151" duration="680000" />
+      <workItem from="1600301566998" duration="749000" />
+      <workItem from="1600305406496" duration="1684000" />
+      <workItem from="1600478470229" duration="1830000" />
     </task>
     <servers />
   </component>
@@ -125,30 +172,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1597719730730">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600633682819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597719730730" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1597719730730">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600633682819" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1597798404061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597719730730" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1597719730730">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1597798404061" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600480302509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597719730730" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1597719730730">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600480302509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597719730730" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600480302509">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600480302509">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600311429209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600311429209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600311429208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600311429208" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600311429209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1597352748680">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597352748680" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1597719713121">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1600633527782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597719713121" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600633527782" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1597890985343">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1597890985343" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597376396100">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

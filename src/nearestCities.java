@@ -4,8 +4,8 @@ import java.util.*;
 public class nearestCities {
     public static void main(String args[]) {
         String[] cities = {"green", "red", "blue", "yellow", "pink"};
-        int[] xCoordinates = {100, 100, 300, 400, 500};
-        int[] yCoordinates = {100, 1000, 300, 400, 500};
+        int[] xCoordinates = {100, 200, 300, 400, 500};
+        int[] yCoordinates = {100, 200, 300, 400, 500};
         String[] queries = {"green", "red", "blue", "yellow", "pink"};
 
         Map<String, List<Integer>> locations = new HashMap<>();
