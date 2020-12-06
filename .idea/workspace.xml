@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480aa88e-6181-47a3-b151-369d1a31f14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtrack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circularLeftShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lisLeetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comparactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,16 +56,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.comparator">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ancestralNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ancestralNames" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparator" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lisLeetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lisLeetcode" />
       <module name="Practice" />
@@ -99,19 +101,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.br" />
-      <item itemvalue="Application.ancestralNames" />
       <item itemvalue="Application.circularLeftShift" />
       <item itemvalue="Application.lisLeetcode" />
       <item itemvalue="Application.backtrack" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.comparator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.comparator" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.backtrack" />
         <item itemvalue="Application.lisLeetcode" />
         <item itemvalue="Application.circularLeftShift" />
-        <item itemvalue="Application.ancestralNames" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +169,7 @@
       <workItem from="1601345602190" duration="761000" />
       <workItem from="1601687727031" duration="1627000" />
       <workItem from="1602721855009" duration="2043000" />
+      <workItem from="1607219992851" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="New Codes Added">
       <created>1600633738518</created>
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600633738518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Codes Added">
+      <created>1607220081242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607220081242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,26 +196,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Codes Added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600633737586">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1607221172310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600633737586" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1602751542718">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1607221172310" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1607221146811">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1602751542717">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607221146811" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1607221146810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602751542717" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1602751542717">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607221146810" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1607221146810">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602751542717" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1602751542718">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607221146810" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1607221146811">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607221146811" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
