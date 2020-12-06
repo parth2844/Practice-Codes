@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="480aa88e-6181-47a3-b151-369d1a31f14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/artifactsLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matchBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtrack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/circularLeftShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lisLeetcode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/nearestCities.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/nearestCities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nearestCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nearestCities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.ancestralNames">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="Practice" />
@@ -71,6 +69,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="backtrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtrack" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="br" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br" />
       <module name="Practice" />
@@ -78,22 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deleteProducts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deleteProducts" />
+    <configuration name="circularLeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="circularLeftShift" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sildingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sildingWindow" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tidyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tidyNumbers" />
+    <configuration name="lisLeetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lisLeetcode" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,19 +99,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.br" />
-      <item itemvalue="Application.sildingWindow" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.tidyNumbers" />
-      <item itemvalue="Application.deleteProducts" />
       <item itemvalue="Application.ancestralNames" />
+      <item itemvalue="Application.circularLeftShift" />
+      <item itemvalue="Application.lisLeetcode" />
+      <item itemvalue="Application.backtrack" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ancestralNames" />
-        <item itemvalue="Application.deleteProducts" />
-        <item itemvalue="Application.tidyNumbers" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.sildingWindow" />
+        <item itemvalue="Application.backtrack" />
+        <item itemvalue="Application.lisLeetcode" />
+        <item itemvalue="Application.circularLeftShift" />
+        <item itemvalue="Application.ancestralNames" />
       </list>
     </recent_temporary>
   </component>
@@ -165,68 +163,68 @@
       <workItem from="1600301566998" duration="749000" />
       <workItem from="1600305406496" duration="1684000" />
       <workItem from="1600478470229" duration="1830000" />
+      <workItem from="1600633528219" duration="3077000" />
+      <workItem from="1601345602190" duration="761000" />
+      <workItem from="1601687727031" duration="1627000" />
+      <workItem from="1602721855009" duration="2043000" />
     </task>
+    <task id="LOCAL-00001" summary="New Codes Added">
+      <created>1600633738518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600633738518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Codes Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Codes Added" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600633682819">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1600633737586">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600633682819" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1597798404061">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600633737586" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1597798404061" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1600480302509">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1602751542717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1600480302509">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602751542717" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1602751542717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1600480302509">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602751542717" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1600480302509">
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600480302509" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1600311429209">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1600311429209">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1600311429208">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1602751542718">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1600311429208" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1600311429209">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602751542718" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1607219992281">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1600311429209" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1597352748680">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597352748680" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1600633527782">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600633527782" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1597890985343">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1597890985343" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597376396100">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597376396100" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1607219992281" />
   </component>
 </project>
